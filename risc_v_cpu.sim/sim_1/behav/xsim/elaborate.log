@@ -1,0 +1,27 @@
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: D:/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto be61311f60d6423c87c1016771bbb141 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot riscv_cpu_tb_behav xil_defaultlib.riscv_cpu_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4100] "D:/VivadoFiles/risc_v_cpu/risc_v_cpu.sim/sim_1/behav/xsim/glbl.v" Line 6. Module glbl has a timescale but at least one module in design doesn't have timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.instruction_memory
+Compiling module xil_defaultlib.fetch_stage
+Compiling module xil_defaultlib.register_file
+Compiling module xil_defaultlib.control_unit
+Compiling module xil_defaultlib.immediate_gen
+Compiling module xil_defaultlib.decode_stage
+Compiling module xil_defaultlib.alu
+Compiling module xil_defaultlib.execute_stage
+Compiling module xil_defaultlib.data_memory
+Compiling module xil_defaultlib.memory_stage
+Compiling module xil_defaultlib.writeback_stage
+Compiling module xil_defaultlib.hazard_detection
+Compiling module xil_defaultlib.forwarding_unit
+Compiling module xil_defaultlib.riscv_cpu
+Compiling module xil_defaultlib.riscv_cpu_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot riscv_cpu_tb_behav
