@@ -1,4 +1,7 @@
 # RISC-V CPU Core (Plastic Project)
+## The source files (Designs and Testbench) are in "risc_v_cpu.srcs" folder
+## A general NEXYS 4 DDR "xdc" file is also added
+## A screen recording is also added, showing the simulation of the RISC-V cpu
 
 ## Overview
 
@@ -64,7 +67,3 @@ Contributions to this project are welcome! Please follow these guidelines:
 2. **Create a new branch for your feature or fix**.
 3. **Make your changes and ensure they are well-documented**.
 4. **Submit a pull request for review**.
-
-## Contact
-
-For any questions or issues, please contact [itstahir256@gmail.com].
