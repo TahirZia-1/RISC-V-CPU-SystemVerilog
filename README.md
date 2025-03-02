@@ -35,3 +35,36 @@ The RISC-V CPU consists of several key components:
 5. **Writeback Stage**: Writes the result back to the register file.
 6. **Hazard Detection Unit**: Detects and resolves data hazards.
 7. **Forwarding Unit**: Implements forwarding to reduce pipeline stalls.
+
+## Implementation
+
+To implement the RISC-V CPU on an FPGA:
+
+1. **Add the source files to your project**.
+2. **Assign appropriate pins for**:
+   - System clock (`clk`)
+   - Reset button (`reset`)
+3. **Generate bitstream and program your FPGA**.
+
+## Customization
+
+The instruction memory can be customized by modifying the `instruction_memory` module in `fetch_stage.sv`. For simulation purposes, you may want to add more instructions to the memory.
+
+## Testing
+
+The included testbench (`riscv_cpu_tb.sv`) provides a basic verification environment:
+- Applies reset.
+- Runs the clock for an extended period.
+- Monitors PC and instruction values.
+
+## Contributing
+
+Contributions to this project are welcome! Please follow these guidelines:
+1. **Fork the repository**.
+2. **Create a new branch for your feature or fix**.
+3. **Make your changes and ensure they are well-documented**.
+4. **Submit a pull request for review**.
+
+## Contact
+
+For any questions or issues, please contact [itstahir256@gmail.com].
